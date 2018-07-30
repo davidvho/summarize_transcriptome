@@ -5,7 +5,10 @@
 import argparse
 import numpy as np
 import collections
+<<<<<<< HEAD
 from collections import Counter
+=======
+>>>>>>> 90a5b2217ceac9af8c6eb150607b3bcee6fe0e89
 
 def mm():
 	parser = argparse.ArgumentParser(description='Given a transcriptome assembled from TRINITY (.fasta) and an annotation file from TRINOTATE, this script will output summary statistics for the transcriptome assembly and produce 4 files from the Trinotate annotation that can be used for plotting (like in R): (1) Isoform count distribution, (2) Organism BLAST hits, (3) First GO term for each gene, (4) All GO terms. Important note: Trinotate output needs to be converted into a tab-delimited file before use.')
@@ -66,7 +69,10 @@ def trinity_stats(file):
         avg_trans = np.mean(lengths)
         array_lengths = np.array(lengths)
         
+<<<<<<< HEAD
         print("")
+=======
+>>>>>>> 90a5b2217ceac9af8c6eb150607b3bcee6fe0e89
         print("No. of genes |", len(uniq_gene))
         print("No. of transcripts |", trans_no)
         print("No. of total assembled bases |", base_no)
@@ -176,6 +182,10 @@ with open(trinotate_file) as fh, open("all_GO_terms_all_genes.txt", "w") as writ
             for item in GO_term:
                 what = item.split("^")
                 write.write(item[:10]+"\t"+what[1]+"\t"+what[2]+"\n")
+<<<<<<< HEAD
 
 print("")                
+=======
+                
+>>>>>>> 90a5b2217ceac9af8c6eb150607b3bcee6fe0e89
 print("Files written: (1) Isoform count distribution, (2) Organism BLAST hits, (3) First GO term for each gene, (4) All GO terms")
