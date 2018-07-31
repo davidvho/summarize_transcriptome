@@ -5,7 +5,7 @@ Inputs: TRINITY transcripome assembly (.fasta) and TRINOTATE annotation file
 
 Links to Trinity and Trinotate:
 
-https://github.com/trinityrnaseq/trinityrnaseq/wiki
+https://github.com/trinityrnaseq/trinityrnaseq/wiki<br>
 https://github.com/Trinotate/Trinotate.github.io/wiki
 
 Note that the Trinotate annotation file is given to the user as a .xls file from the software, please convert to a tab-delimited file before proceeding.
