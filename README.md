@@ -4,6 +4,7 @@ Python script to get useful statistics from a transcriptome and its annotation
 Inputs: TRINITY transcripome assembly (.fasta) and TRINOTATE annotation file
 
 Links to Trinity and Trinotate:
+
 https://github.com/trinityrnaseq/trinityrnaseq/wiki
 https://github.com/Trinotate/Trinotate.github.io/wiki
 
